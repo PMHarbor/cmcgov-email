@@ -52,17 +52,20 @@ a {
   background-image: url('http://1.cmcgov.com/fall/footer-bg.jpg');
   background-size: auto;
   height: 375px;
+  width: 600px;
   padding-top: 50px;
   /*background-color: #7D7F82;*/
   color: white;
+  margin-top: -10px;
+  position: absolute;
+  z-index: 1;
 }
 
 #top-line {
   margin: 0;
   color: #8e9093;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   font-size:10px;
-  line-height: 14px;
   font-weight:400;
 }
 
@@ -136,7 +139,7 @@ a {
 }
 
 .infobox-h-1 {
-  padding: 13px 0px 0px 5px;
+  padding: 11px 0px 0px 5px;
   font-size: 16px;
   font-weight: bold;
   background-color: #C0C0C0;
@@ -209,4 +212,8 @@ a {
 
 .divider {
   margin-bottom: 10px;
+}
+
+#cta {
+  margin-bottom: -4px;
 }
